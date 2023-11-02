@@ -1,0 +1,102 @@
+.location .box {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .location img {
+    border-radius: 5px;
+    display: block;
+  }
+
+  .location .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    /* z-index: 222; */
+    z-index: 1;
+  }
+
+  .location .overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 210px;
+    background: rgb(15 28 47 / 30%);
+    z-index: -1;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .location h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .location label {
+    color: #fff;
+    margin-right: 20px;
+    opacity: 0.8;
+  }
+
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .location .box {
+    width: 30%; /* Vagy más megfelelő szélesség */
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .location .overlay::after {
+      width: 50%; 
+      height: 30%;
+      width: 280px;
+      height: 170px;
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+    .location .overlay::after {
+      width: 80%; 
+      height: 70%; 
+      max-width: 340px; 
+      max-height: 210px; 
+      margin: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .location .overlay::after {
+      width: 100%; 
+      height: 100%; 
+      max-width: 340px; 
+      max-height: 210px; 
+      margin: 20px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 1200px) {
+    .content {
+      flex-wrap: wrap;
+    }
+  
+    .location .box {
+      width: 100%;
+    }
+  }

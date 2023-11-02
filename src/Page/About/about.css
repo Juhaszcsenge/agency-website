@@ -1,0 +1,46 @@
+.about {
+  margin-bottom: 80px;
+}
+
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 15px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.left-row {
+  width: 60%; /* Adj meg egy szélességet a bal oldali elemnek */
+}
+
+.left-row img {
+  width: 80%; /* Kisebb méretű kép */
+  display: block;
+  margin: 0 auto; /* Középre igazítás */
+}
+
+@media screen and (max-width: 768px) {
+  .about .container {
+    flex-direction: column;
+    align-items: center; /* Középre igazítás */
+  }
+
+  .about p {
+    padding: 0;
+  }
+
+  .left-row {
+    width: 100%; /* Teljes szélesség mobil nézetben */
+  }
+
+  .left-row img {
+    width: 60%; /* Kisebb méretű kép mobil nézetben */
+    margin-top: 20px; /* Kevesebb felső margó mobil nézetben */
+  }
+}

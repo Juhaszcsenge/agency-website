@@ -1,0 +1,20 @@
+.featured .box {
+    box-shadow: 0 0 20px 0 #39201c;
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    background-color: #f3e8de;
+  }
+  .featured img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 767px) {
+    .featured .box {
+      width: 100%; /* Teljes szélességű a mobil nézetben */
+      margin-bottom: 20px; /* Vagy más megfelelő margin érték a mobil nézetben */
+    }
+}

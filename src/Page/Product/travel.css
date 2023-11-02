@@ -1,0 +1,149 @@
+.aboutMe{
+    width: 100%;
+}
+
+.aboutMe img{
+height: auto;
+width: 300px;
+border-radius: 0 7rem 0 7rem;
+box-shadow: -20px 20px 0 0 #044d48;
+}
+
+.about-text{
+    width: 400px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-top: 45px;
+}
+
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    height: 40%;
+}
+
+.buttonLeft{
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:  13px 30px;
+    border-radius: 30px;
+    transition: .4s; 
+    background: "#CAF0F8"; 
+    border-radius: "100px";
+    color:"#6E6D6E";
+    letter-spacing:"2px";
+    font-family:"Montserrat,Helvetica,Arial,Lucida,sans-serif";
+}
+
+.buttonLeft:hover{
+    background: transparent;
+    border: 2px solid;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutMe img {
+      width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
+      max-width: 300px;
+      border-radius: 0 7rem 0 7rem;
+      box-shadow: -20px 20px 0 0 #0A8F9A;
+      margin-bottom: 20px;
+    }
+  
+    .about-text {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .about-text h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .about-text h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .about-text p {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+      margin-top: 20px; 
+      order: 2; 
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .aboutMe {
+        padding: 60px 0;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMe img {
+        width: 80%;
+        max-width: 300px;
+        border-radius: 0 7rem 0 7rem;
+        box-shadow: -20px 20px 0 0 #0A8F9A;
+    }
+
+    .about-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-text h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .about-text h5 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
