@@ -20,9 +20,21 @@
 }
 
 .left-row img {
-  width: 80%; /* Kisebb méretű kép */
-  display: block;
-  margin: 0 auto; /* Középre igazítás */
+  height: auto;
+  width: 500px;
+  margin-left: auto; /* Tekerje jobbra a képet */
+  margin-left: 30%; /* Adj egy kis távolságot a jobb oldaltól */
+  border-radius: 0 7rem 0 7rem;
+  box-shadow: 20px 20px 0 0 #967375; 
+}
+
+.about-img{
+  height: auto;
+  width: 500px;
+  margin-left: auto; /* Tekerje jobbra a képet */
+   /* Adj egy kis távolságot a jobb oldaltól */
+  border-radius: 0 7rem 0 7rem;
+  box-shadow: 20px 20px 0 0 #967375; 
 }
 
 @media screen and (max-width: 768px) {

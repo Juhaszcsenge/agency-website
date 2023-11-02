@@ -3,39 +3,46 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <>
-      {/* <section className='footerContact'>
-        <div className='container'>
-          <div className='send flex'>
-            <div className='text'>
-              <h1>Do You Have Questions?</h1>
-              <p>We'll help you to grow your career and growth.</p>
-            </div>
-            <button className='btn5'>Contact Us Today</button>
-          </div>
+    <footer>
+      <div className='container'>
+        <div className='box'>
+          <ul>
+            <li>Cégünk törzstőkéje: 5 000 000.- forint</li>
+            <li>Cég elnevezése: Flowers & Daniel Biztosítási Alkusz és Tanácsadó Kft.</li>
+            <li>Rövid elnevezés: Flowers & Daniel Kft.</li>
+            <li>Alapítás dátuma: 2002.09.25</li>
+            <li>Ügyvezető: Virág László</li>
+          </ul>
         </div>
-      </section>
-
-      <footer>
-        <div className='container'>
-          <div className='box'>
-            <div className='logo'>
-              <img src='./images/logo-light.png' alt='' />
-              <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, hot deals, tutorials, discounts sent straight to your inbox every month</p>
-
-              <div className='input flex'>
-                <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button>
+        <div className='box'>
+          <ul>
+            <li>PSZÁF engedély száma: 586 / 2002</li>
+            <li>Adószám: 12909755-2-02</li>
+            <li>Székhely: 7626 Pécs Major u. 9.</li>
+            <li>Iroda 1: 7626 Pécs Major u. 9.</li>
+            <li>Iroda 2: 7800 Siklós Szent István tér 8. KÉK SELLŐ ÜZLETHÁZ</li>
+          </ul>
+        </div>
+        <div className='box'>
+          <ul>
+            <li>Adószám: 12909755-2-02</li>
+            <li>Székhely: 7626 Pécs Major u. 9.</li>
+            <li>Levelezési cím: 7626 Pécs Major u. 9.</li>
+            <li>Irodai Mobil: 20 / 423 88 89</li>
+            <li>Telefon: 72 / 511 111, Fax: 72 / 211 246</li>
+          </ul>
+        </div>
+      </div>
+      <center>
+            <div>
+              <br />
+              <a style={{color:"grey"}} href="http://www.flowersanddaniel.hu/assets/adatkezelesi_tajekoztato.pdf">Adatkezelési tájékoztató</a>
               </div>
-            </div>
-          </div>
-        </div>
-      </footer> */}
+              </center>
       <div className='legal'>
         <span>© 2023 By Juhász Csenge.</span>
       </div>
-    </>
+    </footer>
   );
 };
 

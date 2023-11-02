@@ -18,24 +18,24 @@ export const location = [
 
 export const featured = [
   {
-    cover: "h1.png",
+    cover: "car (2).png",
     name: "Gépjármű biztosítás",
   },
   {
-    cover: "h2.png",
+    cover: "health-insurance.png",
     name: "Életbiztosítás",
    
   },
   {
-    cover: "h3.png",
+    cover: "construction.png",
     name: "Lakás- és Vagyonbiztosítás",
   },
   {
-    cover: "h4.png",
+    cover: "plane.png",
     name: "Utasbiztosítás",
   },
   {
-    cover: "h6.png",
+    cover: "legal-hammer.png",
     name: "Jogvédelem",
   },
 ]

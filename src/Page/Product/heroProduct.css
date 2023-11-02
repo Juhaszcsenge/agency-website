@@ -1,4 +1,4 @@
-.hero {
+.hero-product {
     background-image: url("https://images.unsplash.com/photo-1516050327434-9d06ea9bfae8?auto=format&fit=crop&q=80&w=2101&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     /* background-size: auto; */
     background-attachment: fixed;
@@ -124,7 +124,7 @@ a, a:hover {
 
 
 @media screen and (max-width: 768px) {
-  .hero {
+  .hero-product {
     background-position: right;
     padding-top: 50%;
     height: 50vh; /* Módosítsd a mobil nézet magasságát az igényeidnek megfelelően */

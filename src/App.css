@@ -27,12 +27,12 @@ ul {
 }
 button {
   border-radius: 5px;
-  padding: 17px 30px;
+  /* padding: 17px 30px; */
   background: #846756;
   border: none;
   color: #fff;
   cursor: pointer;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 button i {
   margin-right: 5px;
@@ -43,13 +43,14 @@ button i {
   margin: auto;
 }
 .heading h1 {
-  color: #2d3954;
+  color: black;
   font-weight: 600;
-  text-transform: capitalize;
-  font-size: 35px;
+  /* text-transform: capitalize;
+  font-size: 35px; */
+  padding: 40px;
 }
 .heading p {
-  color: #72809d;
+  color: black;
 }
 textarea,
 input {
@@ -123,7 +124,7 @@ img {
 }
 .back {
   height: 40vh;
-  position: relative;
+  /* position: relative; */
 }
 .back img {
   height: 40vh;

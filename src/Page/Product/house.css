@@ -2,11 +2,21 @@
     width: 100%;
 }
 
-.aboutMe img{
+/* .house-img{
 height: auto;
-width: 300px;
-border-radius: 0 7rem 0 7rem;
-box-shadow: -20px 20px 0 0 #044d48;
+width: 500px;
+padding-left: 10%;
+border-radius: 0 7rem 0 7rem; 
+box-shadow: -20px 20px 0 0 #967375;
+} */
+
+.house-img {
+  height: auto;
+  width: 500px;
+  margin-left: auto; /* Tekerje jobbra a képet */
+  margin-left: 30%; /* Adj egy kis távolságot a jobb oldaltól */
+  border-radius: 0 7rem 0 7rem;
+  box-shadow: 20px 20px 0 0 #967375; /* Pozitív értékek a jobb oldal felé mutatnak */
 }
 
 .about-text{
@@ -19,7 +29,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-text h1{

@@ -10,11 +10,12 @@
     color: #000;
   }
   .navbar-bg {
-    background-color: white;
+    background-color: #846756;
   }
   
   .nav-menu {
     display: flex;
+    cursor: pointer;
   }
   
   li {
@@ -46,7 +47,7 @@
         justify-content: space-between;
         /* align-items: center; */
         /* color: rgba(255, 255, 255, .95); */
-        background-color: #f5f5f5;
+        background-color: #846756;
         transition: 0.3s;
         color: #000;
     }
@@ -62,7 +63,7 @@
     .mobile-menu li {
         padding: 1.2rem 1rem;
         margin: 0 1rem;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #846756;
     }
   
     .mobile-nav {

@@ -1,12 +1,15 @@
 .aboutMe{
     width: 100%;
+    padding: 40px;
 }
 
-.aboutMe img{
-height: auto;
-width: 300px;
-border-radius: 0 7rem 0 7rem;
-box-shadow: -20px 20px 0 0 #044d48;
+.life-img{
+  height: auto;
+  width: 500px;
+  margin-left: auto; /* Tekerje jobbra a képet */
+  margin-left: 30%; /* Adj egy kis távolságot a jobb oldaltól */
+  border-radius: 0 7rem 0 7rem;
+  box-shadow: 20px 20px 0 0 #967375; 
 }
 
 .about-text{
@@ -19,7 +22,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-text h1{
@@ -27,7 +30,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     font-size: 36px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    padding-top: 45px;
+    /* padding-top: 45px; */
 }
 
 .about-text h5{
@@ -47,7 +50,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     height: 40%;
 }
 
-.buttonLeft{
+.buttonRight{
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -61,7 +64,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     font-family:"Montserrat,Helvetica,Arial,Lucida,sans-serif";
 }
 
-.buttonLeft:hover{
+.buttonRight:hover{
     background: transparent;
     border: 2px solid;
 }

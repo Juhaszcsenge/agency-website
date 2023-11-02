@@ -20,9 +20,6 @@ function Navbar() {
       </div>
       <ul className="nav-menu">
       <Link to='/' onClick={() => navigate('/')}><li>Főoldal</li></Link>
-      <Link to='about' smooth={true} duration={500} ><li>Rólunk</li></Link>
-      <Link to='location padding' smooth={true} duration={500} ><li>Szolgáltatásaink</li></Link>
-      <Link to='menux' smooth={true} duration={500} ><li>Kapcsolat</li></Link> 
       <Link to='/products' onClick={() => navigate('/products')}><li>Termékeink</li></Link>
       <Link to='/complaint' onClick={() => navigate('/complaint')}><li>Panaszkezelés</li></Link>
       </ul>
@@ -34,9 +31,6 @@ function Navbar() {
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
         <Link to='/' onClick={() => navigate('/')}><li>Főoldal</li></Link>
-      <Link to='about' smooth={true} duration={500} ><li>Rólunk</li></Link>
-      <Link to='location padding' smooth={true} duration={500} ><li>Szolgáltatásaink</li></Link>
-      <Link to='menux' smooth={true} duration={500} ><li>Kapcsolat</li></Link> 
       <Link to='/products' onClick={() => navigate('/products')}><li>Termékeink</li></Link>
       <Link to='/complaint' onClick={() => navigate('/complaint')}><li>Panaszkezelés</li></Link>
         </ul>

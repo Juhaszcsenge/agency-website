@@ -1,12 +1,20 @@
 .aboutMe{
     width: 100%;
 }
-
+/* 
 .aboutMe img{
 height: auto;
-width: 300px;
-border-radius: 0 7rem 0 7rem;
-box-shadow: -20px 20px 0 0 #044d48;
+width: 50%;
+
+} */
+
+.car-img{
+  height: auto;
+  width: 500px;
+  margin-right: auto; /* Tekerje balra a képet */
+  margin-right: 20%; /* Adj egy kis távolságot a bal oldaltól */
+  border-radius: 7rem 0 7rem 0; /* Csak a bal oldali sarkok legyenek lekerekítve */
+  box-shadow: -20px 20px 0 0 #967375;
 }
 
 .about-text{
@@ -19,7 +27,7 @@ box-shadow: -20px 20px 0 0 #044d48;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-text h1{

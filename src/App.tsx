@@ -10,6 +10,7 @@ import Location from './Page/Location/Location';
 import Featured from './Page/Featured/Featured';
 import Contact from './Page/Contact/Contact';
 import Product from './Page/Product/Product';
+import Complaint from './Page/Complaint/Complaint';
 
 
 
@@ -29,7 +30,12 @@ function App() {
              <Footer/>
             </div>
           }/>
-          <Route path='/aboutMe' element={<Product />} />
+          <Route path='/'/>
+          <Route path='/about' element={<About />} />
+          <Route path='/products' element={<Product />} />
+          <Route path='/complaint' element={<Complaint />} />
+          <Route path='/' element={<Location />} />
+          <Route path='/' element={<Contact />} />
         </Routes>
     </div>
   );
