@@ -7,7 +7,7 @@ const Car = () => {
   return (
     <>
     <Header />
-    <section className='aboutMe' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
+    <section className='car-section' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
    <div className='main'>
     <img src='car.jpg'></img>
     <div className='about-text'>
