@@ -17,7 +17,7 @@ const Life = () => {
     </div>
     <img className="life-img" src='life2.jpg'></img>
    </div>
-   <div>
+   <div className='life-respo'>
    <h3 style={{ paddingLeft:"19%"}}>Befektetés</h3>
       <p style={{color: "black", letterSpacing: "1px", fontSize:"18px", marginBottom:"45px", height:"40%", lineHeight:"28px", paddingLeft:"19%"}}>Az életbiztosítások manapság már aligha tekinthetőek kizárólag biztosításnak, jóval inkább befektetésnek. 
         Az ügyfelek saját elképzeléseik alapján dönthetik el, hogy milyen célra szeretnének spórolni: saját jólétükre, nyugdíjuk kiegészítésére, egészségük megóvására, gyermekeik jövőjére.</p>

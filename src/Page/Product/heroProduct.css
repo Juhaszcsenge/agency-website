@@ -37,7 +37,8 @@
       height: 40vh;
     }
     .hero {
-      background-position: right;
+      /* background-position: right; */
+      background-size: 50%;
       padding-top: 50%;
       height: 80vh;
     }
@@ -125,7 +126,8 @@ a, a:hover {
 
 @media screen and (max-width: 768px) {
   .hero-product {
-    background-position: right;
+    /* background-position: right; */
+    background-size: auto;
     padding-top: 50%;
     height: 50vh; /* Módosítsd a mobil nézet magasságát az igényeidnek megfelelően */
   }
@@ -163,3 +165,12 @@ a, a:hover {
     padding-left: 20px!important;
   }
 }
+
+
+/* @media only screen and (max-width: 768px) {
+  .hero-product {
+      background-size: auto;
+      padding-top: 12%;
+      padding-right: 50px;
+  }
+} */

@@ -87,7 +87,7 @@ box-shadow: -20px 20px 0 0 #967375;
       width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
-      box-shadow: -20px 20px 0 0 #0A8F9A;
+      box-shadow: 20px 20px 0 0 #967375;
       margin-bottom: 20px;
     }
   
@@ -134,7 +134,7 @@ box-shadow: -20px 20px 0 0 #967375;
         width: 80%;
         max-width: 300px;
         border-radius: 0 7rem 0 7rem;
-        box-shadow: -20px 20px 0 0 #0A8F9A;
+        box-shadow: 20px 20px 0 0 #967375;
     }
 
     .about-text {
@@ -156,4 +156,14 @@ box-shadow: -20px 20px 0 0 #967375;
         font-size: 16px;
         margin-bottom: 40px;
     }
+}
+
+@media screen and (width: 1224px) {
+  .house-img {
+    height: auto;
+    width: 500px;
+    border-radius: 0 7rem 0 7rem;
+    box-shadow: 20px 20px 0 0 #967375;
+}
+  
 }

@@ -85,7 +85,7 @@ width: 50%;
       width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
-      box-shadow: -20px 20px 0 0 #0A8F9A;
+      box-shadow: 20px 20px 0 0 #967375;
       margin-bottom: 20px;
     }
   
@@ -132,7 +132,7 @@ width: 50%;
         width: 80%;
         max-width: 300px;
         border-radius: 0 7rem 0 7rem;
-        box-shadow: -20px 20px 0 0 #0A8F9A;
+        box-shadow: 20px 20px 0 0 #967375;
     }
 
     .about-text {

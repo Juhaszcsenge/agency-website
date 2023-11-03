@@ -80,7 +80,7 @@
       width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
-      box-shadow: -20px 20px 0 0 #0A8F9A;
+      box-shadow: 20px 20px 0 0 #967375;
       margin-bottom: 20px;
     }
   
@@ -126,8 +126,9 @@
     .aboutMe img {
         width: 80%;
         max-width: 300px;
+        margin-right: 100px;
         border-radius: 0 7rem 0 7rem;
-        box-shadow: -20px 20px 0 0 #0A8F9A;
+        box-shadow: 20px 20px 0 0 #967375;
     }
 
     .about-text {
@@ -149,4 +150,22 @@
         font-size: 16px;
         margin-bottom: 40px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+  .life-respo h3,
+  .life-respo p {
+    padding-left: 0; /* Remove left padding for headers and paragraphs */
+  }
+
+  .life-respo h3 {
+    font-size: 1.5em; /* Adjust font size for headers on smaller screens */
+  }
+
+  .life-respo p {
+    font-size: 16px; /* Adjust font size for paragraphs on smaller screens */
+    margin-bottom: 20px; /* Adjust margin for paragraphs on smaller screens */
+    height: auto; /* Remove fixed height for paragraphs */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
 }
