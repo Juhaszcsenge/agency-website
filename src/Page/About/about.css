@@ -31,8 +31,7 @@
 .about-img{
   height: auto;
   width: 500px;
-  margin-left: auto; /* Tekerje jobbra a képet */
-   /* Adj egy kis távolságot a jobb oldaltól */
+  margin-left: auto; 
   border-radius: 0 7rem 0 7rem;
   box-shadow: 20px 20px 0 0 #967375; 
 }
@@ -54,5 +53,15 @@
   .left-row img {
     width: 60%; /* Kisebb méretű kép mobil nézetben */
     margin-top: 20px; /* Kevesebb felső margó mobil nézetben */
+  }
+
+  .about-img{
+   
+      height: auto;
+      width: 350px;
+      margin-left: auto;
+      border-radius: 0 7rem 0 7rem;
+      box-shadow: 20px 20px 0 0 #967375;
+
   }
 }

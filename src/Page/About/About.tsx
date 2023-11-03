@@ -19,12 +19,6 @@ const About = () => {
           professzionális képviselete, minőségi kiszolgálása.</p> 
           <h2 style={{fontSize:"30px"}}>Mottónk</h2>
           <p>Nem szabad a pénz után futni,Elébe kell menni.</p>
-          {/* <a href='/aboutMe'>
-            <button className='buttonRight' style={{background: "#CAF0F8", borderRadius: "100px", borderColor: "rgba(0,0,0,0)", color:"#6E6D6E", letterSpacing:"2px", fontFamily:"Montserrat,Helvetica,Arial,Lucida,sans-serif"}}>
-              Rólam
-            </button>
-          </a>
-          <button className='btn2'>More About Us</button> */}
         </div>
         <div className='right row'>
           <img className='about-img' src='./immio.jpg' alt='' />

@@ -36,23 +36,27 @@ import Heading from "../Heading";
                     <div className="row"> {/*Ez a contact form*/}
                        <form >
                         <div className="input-box">
-                          <p>E-mail</p>
+                          <p>E-mail:</p>
                           <p>flowers@fuggetlenalkusz.hu</p>
                         </div>
+                        <br></br>
                         <div className="input-box">
-                           <p>Telefonszám</p>
+                           <p>Telefonszám:</p>
                            <p>  (72) 511 111</p>
                         </div>
+                        <br></br>
                         <div className="input-box">
-                          <p>Fax</p>
+                          <p>Fax:</p>
                           <p> (72) 211 246 </p>
                         </div>
+                        <br></br>
                         <div className="input-box">
-                          <p>Mobil 1</p>
+                          <p>Mobil 1:</p>
                           <p>(+36) 20 955 97 22</p>
                         </div>
+                        <br></br>
                         <div className="input-box">
-                          <p>Mobil 2</p>
+                          <p>Mobil 2:</p>
                           <p>	(+36) 20 423 88 89</p>
                         </div>
                        </form>
