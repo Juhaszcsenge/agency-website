@@ -3,12 +3,16 @@ import './travel.css'
 import Footer from '../../Component/Footer/Footer';
 import Header from '../../Component/Header';
 
-const Travel = () => {
+
+interface TravelProps {
+  scrollToSection: (sectionId: any) => void;
+}
+
+const Travel: React.FC<TravelProps> = ({ scrollToSection }) => {
   return (
     <>
-    
-    <section className='aboutMe' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
-   <div className='main'>
+    <section id='travel' className='travel' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
+   <div className='main2'>
     <img className='travel-img' src='travel2.jpg'></img>
     <div className='about-text'>
       <h1>Utasbiztosítás</h1>

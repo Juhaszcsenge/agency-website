@@ -20,7 +20,7 @@ export const featured = [
   {
     cover: "car (2).png",
     name: "Gépjármű biztosítás",
-    link: "/products",
+   link:"car-section"
     
   },
   {
@@ -32,16 +32,16 @@ export const featured = [
   {
     cover: "construction.png",
     name: "Lakás- és Vagyonbiztosítás",
-    link: "/products",
+    link: "products",
   },
   {
     cover: "plane.png",
     name: "Utasbiztosítás",
-    link: "/products",
+    link: "products",
   },
   {
     cover: "legal-hammer.png",
     name: "Jogvédelem",
-    link: "/products",
+    link: "products",
   },
 ]

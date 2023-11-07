@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Header from './Component/Header';
@@ -15,6 +15,7 @@ import Complaint from './Page/Complaint/Complaint';
 
 
 function App() {
+  const scrollToSection = useRef(() => {});
   return (
     <div>
       <Routes>
@@ -23,7 +24,7 @@ function App() {
              <Header/>
              <Hero/>
              <About/>
-             <Featured/>
+             <Featured />
              <Location/>
              <SecondHero/>
              <Contact/>
@@ -32,7 +33,7 @@ function App() {
           }/>
           <Route path='/'/>
           <Route path='/about' element={<About />} />
-          <Route path='/products' element={<Product />} />
+          <Route path='/products' element={<Product scrollToSection={scrollToSection.current} />} />
           <Route path='/complaint' element={<Complaint />} />
           <Route path='/' element={<Location />} />
           <Route path='/' element={<Contact />} />

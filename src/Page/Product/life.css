@@ -1,4 +1,4 @@
-.aboutMe{
+.life{
     width: 100%;
     padding: 40px;
 }
@@ -16,7 +16,7 @@
     width: 400px;
 }
 
-.main{
+.main3{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -71,12 +71,12 @@
 
 
 @media screen and (max-width: 600px) {
-    .main {
+    .main3 {
       flex-direction: column;
       align-items: center;
     }
   
-    .aboutMe img {
+    .life img {
       width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
@@ -114,16 +114,16 @@
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .aboutMe {
+    .life {
         padding: 60px 0;
     }
 
-    .main {
+    .main3 {
         flex-direction: column;
         align-items: center;
     }
 
-    .aboutMe img {
+    .life img {
         width: 80%;
         max-width: 300px;
         margin-right: 100px;

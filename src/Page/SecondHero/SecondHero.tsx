@@ -15,17 +15,21 @@ const SecondHero = () => {
       <Carousel showArrows={true} autoPlay={true} infiniteLoop={true} showThumbs={false} showIndicators={false} showStatus={false}>
 
         <div>
-          <h2>Hatalmas segítséget nyújtott nekem a mentális és érzelmi egészségem javításában. A pszichológusom türelmes és empátiával kezelte a problémáimat, és segített nekem felfedezni olyan megoldásokat és stratégiákat, amelyekkel kezelni tudtam a stresszt és a nehéz élethelyzeteket. A rendszeres terápia során sikerült mélyebben megértenem saját érzéseimet és gondolataimat, és ezáltal jobban képes vagyok kezelni az élet kihívásait.</h2><br/>
+        <h2>A szolgáltatásukkal kapcsolatban maximálisan elégedett vagyok. Az ügyintézésük gyors és rendkívül precíz volt, minden részletre odafigyelve.  Korrekt és átlátható tájékoztatást kaptam tőlük.
+           Nagyon örülök, hogy velük dolgozhattam, és bátran ajánlom másoknak is szolgáltatásaikat.</h2><br/>
             {/* <h4>-Kis Károly, 45 éves</h4> */}
       </div>
 
         <div>
-          <h2>Kezdetben úgy éreztem, hogy egyedül nem tudom kezelni azokat az érzelmi nehézségeket és stresszt, amelyekkel szembenéztem. A pszichológusom segített nekem kibontakoztatni és megérteni a mélyen gyökerező problémáimat, és közösen dolgoztunk azok megoldásán. Az idővel tanult technikákat és stratégiákat használva sikerült megtanulnom kezelni a szorongást és a depressziót.</h2><br/>
+          <h2>Nagyon kedves és udvarias volt a hozzáállásuk, és a tájékoztatásuk is rendkívül szakszerű volt. Úgy éreztem, hogy minden kérdésemre kimerítő és érthető választ kaptam tőlük. 
+            A hozzáértésüket és barátságos hozzáállásukat külön kiemelném, mivel ez sokat jelentett számomra az ügyintézés folyamán. Mindenben segítőkészek és rugalmasak voltak, és ezért hálás vagyok nekik.
+             Kiváló szolgáltatás és támogatás!</h2><br/>
             {/* <h4>-Nagy Anna, 20 éves</h4> */}
       </div>
 
         <div>
-          <h2>Az évek során felhalmozódott stressz és a belső konfliktusok miatt úgy éreztem, hogy elakadtam az életben. A pszichológusom rendkívül képzett és empátiával teli volt. Részletesen meghallgatta a problémáimat, és segített feltárni olyan gondolatokat és érzéseket, amelyekre korábban nem is gondoltam.Az egyéni terápia során olyan eszközöket és stratégiákat tanultam, amelyek segítettek kezelni a stresszt és a szorongást.</h2><br/>
+          <h2>Az ügymenetük rendkívül gyors és könnyen kezelhető. Az egész folyamat során rendkívül elégedett voltam a sebességükkel és a könnyed kezelhetőségükkel. 
+            Azt éreztem, hogy az ügyeimmel való foglalkozásuk során minden lépésben kiválóan eligazodnak, és az egész folyamat gördülékeny volt. Összességében maximálisan elégedett vagyok!</h2><br/>
             {/* <h4>-Tarlós István, 74 éves</h4> */}
         </div>
       </Carousel>

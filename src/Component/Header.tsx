@@ -15,8 +15,6 @@ function Navbar() {
   return (
     <div id='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
     <div className={nav ? 'logo dark' : 'logo'}>
-        {/* <h2>Mazányi Judit</h2> */}
-        {/* <img src="ic4.jpg" style={{height:"50px"}}/> */}
       </div>
       <ul className="nav-menu">
       <Link to='/' onClick={() => navigate('/')}><li>Főoldal</li></Link>

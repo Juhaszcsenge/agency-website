@@ -1,21 +1,84 @@
-import React from "react"
-import { Link } from "react-router-dom";
+
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { featured } from "../Data/Data"
+import { scroller } from "react-scroll";
+import { useEffect } from "react";
 
 
 const FeaturedCard = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleButtonClick = (elementId: any) => {
+    navigate('products', { state: { scrollTarget: elementId } });
+  };
+
+  useEffect(() => {
+    const scrollTarget = location.state?.scrollTarget;
+    if (scrollTarget) {
+      scroller.scrollTo(scrollTarget, {
+        duration: 500,
+        delay: 0,
+        smooth: "easeInOutQuart",
+      });
+    }
+  }, [location.state]);
+
+  //   scroller.scrollTo(elementId, {
+  //     duration: 500,
+  //     delay: 0,
+  //     smooth: "easeInOutQuart",
+  //   });
+  // };
+
+  
   return (
     <>
       <div className='content grid5 mtop'>
-        {featured.map((items, index) => (
-          <Link to={items.link} className='box' key={index}>
-            <img src={items.cover} alt='' />
-            <h4>{items.name}</h4>
-            </Link>
-        ))}
+      <div className="box">
+        <img src="car (2).png" />
+        <div id="car-section" className="button-sec"> 
+            <button className="feature-button"  onClick={() => handleButtonClick('')}>
+              Gépjármű biztosítás
+            </button>
+          </div>
+       </div>
+       <div className="box">
+        <img src="health-insurance.png" />
+        <div id="life" className="button-sec"> 
+            <button className="feature-button"  onClick={() => handleButtonClick('life')}>
+              Életbiztosítás
+            </button>
+          </div>
+       </div>
+       <div className="box">
+        <img src="construction.png" />
+        <div id="house" className="button-sec"> 
+            <button className="feature-button" onClick={() => handleButtonClick('house')}>
+              Lakás - és vagyon biztosítás
+            </button>
+          </div>
+       </div>
+       <div className="box">
+        <img src="plane.png" />
+        <div id="travel" className="button-sec"> 
+            <button className="feature-button" onClick={() => handleButtonClick('travel')}>
+              Utasbiztosítás
+            </button>
+          </div>
+       </div>
+       <div className="box">
+        <img src="legal-hammer.png" />
+        <div id="law" className="button-sec"> 
+            <button className="feature-button" onClick={() => handleButtonClick('law')}>
+              Jogvédelem
+            </button>
+          </div>
+       </div>
       </div>
     </>
   )
 }
+
 
 export default FeaturedCard

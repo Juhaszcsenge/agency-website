@@ -1,4 +1,4 @@
-.aboutMe{
+.house{
     width: 100%;
 }
 
@@ -23,7 +23,7 @@ box-shadow: -20px 20px 0 0 #967375;
     width: 400px;
 }
 
-.main{
+.main4{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -78,12 +78,12 @@ box-shadow: -20px 20px 0 0 #967375;
 
 
 @media screen and (max-width: 600px) {
-    .main {
+    .main4 {
       flex-direction: column;
       align-items: center;
     }
   
-    .aboutMe img {
+    .house img {
       width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
@@ -121,16 +121,16 @@ box-shadow: -20px 20px 0 0 #967375;
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .aboutMe {
+    .house {
         padding: 60px 0;
     }
 
-    .main {
+    .main4 {
         flex-direction: column;
         align-items: center;
     }
 
-    .aboutMe img {
+    .house img {
         width: 80%;
         max-width: 300px;
         border-radius: 0 7rem 0 7rem;

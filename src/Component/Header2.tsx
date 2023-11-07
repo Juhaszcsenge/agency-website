@@ -15,12 +15,14 @@ function Navbar() {
   return (
     <div id='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
     <div className={nav ? 'logo dark' : 'logo'}>
-        {/* <h2>Mazányi Judit</h2> */}
-        {/* <img src="ic4.jpg" style={{height:"50px"}}/> */}
       </div>
       <ul className="nav-menu">
       <Link to='/' onClick={() => navigate('/')}><li>Főoldal</li></Link>
-      {/* <Link to='/products' onClick={() => navigate('/products')}><li>Termékeink</li></Link> */}
+      <Link to='car-section' smooth={true} duration={500} ><li>Gépjármű biztosítás</li></Link>
+      <Link to='life'  smooth={true} duration={500} ><li>Életbiztosítás</li></Link>
+      <Link to='house'  smooth={true} duration={500}><li>Lakás - vagyon biztosítás</li></Link>
+      <Link to='travel' smooth={true} duration={500} ><li>Utazásbiztosítás</li></Link> 
+      <Link to='law' smooth={true} duration={500} ><li>Jogvédelem</li></Link>
       <Link to='/complaint' onClick={() => navigate('/complaint')}><li>Panaszkezelés</li></Link>
       </ul>
     
@@ -31,7 +33,6 @@ function Navbar() {
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
         <Link to='/' onClick={() => navigate('/')}><li>Főoldal</li></Link>
-      {/* <Link to='/products' onClick={() => navigate('/products')}><li>Termékeink</li></Link> */}
       <Link to='/complaint' onClick={() => navigate('/complaint')}><li>Panaszkezelés</li></Link>
         </ul>
       </div>

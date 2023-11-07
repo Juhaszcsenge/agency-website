@@ -3,7 +3,7 @@
     border-radius: 6px;
     text-align: center;
     padding: 30px;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #f3e8de;
   }
   .featured img {
@@ -11,6 +11,18 @@
     height: 65px;
     margin: auto;
   }
+
+.feature-button {
+  background-color: #f3e8de;
+  color: black;
+  font-size: 18px;
+    font-weight: 500;
+  border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    margin-top: 10px
+}
 
   @media screen and (max-width: 767px) {
     .featured .box {

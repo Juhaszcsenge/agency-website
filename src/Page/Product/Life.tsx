@@ -3,11 +3,17 @@ import './life.css'
 import Footer from '../../Component/Footer/Footer';
 import Header from '../../Component/Header';
 
-const Life = () => {
+
+interface LifeProps {
+  scrollToSection: (sectionId: any) => void;
+}
+
+
+const Life: React.FC<LifeProps> = ({ scrollToSection }) => {
   return (
     <>
-    <section className='aboutMe' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
-   <div className='main'>
+    <section id='life' className='life' >
+   <div className='main3'>
     <div className='about-text'>
       <h1>Életbiztosítás</h1>
       <h3>Kockázati</h3>

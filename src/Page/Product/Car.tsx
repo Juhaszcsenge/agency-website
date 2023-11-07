@@ -1,15 +1,12 @@
 import React from 'react';
 import './car.css'
-import Footer from '../../Component/Footer/Footer';
-import Header from '../../Component/Header';
 
 const Car = () => {
   return (
     <>
-    <Header />
-    <section className='car-section' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
-   <div className='main'>
-    <img src='car.jpg'></img>
+    <section  className='car-section'>
+   <div className='main1'>
+    <img className='car-img' src='car.jpg'></img>
     <div className='about-text'>
       <h1>Gépjármű biztosítás</h1>
       <h2>KGFB</h2>
@@ -20,7 +17,6 @@ const Car = () => {
     </div>
    </div>
     </section>
-    <Footer/>
     </>
   );
 };

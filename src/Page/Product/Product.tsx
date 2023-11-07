@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './car.css'
 import Footer from '../../Component/Footer/Footer';
 import House from './House';
@@ -11,17 +11,33 @@ import Header from '../../Component/Header';
 import HeroProduct from './HeroProduct';
 import Header2 from '../../Component/Header2';
 import BackToTopButton from '../BackToButton';
+import FeaturedCard from '../Featured/FeaturedCard';
+import {  Route } from 'react-router-dom';
+import Car from './Car';
 
+interface ProductProps {
+  scrollToSection: (sectionId: any) => void;
+}
 
+const Product: React.FC<ProductProps> = ({ scrollToSection }) => {
 
-const Product = () => {
+  const handleScrollToSection = (sectionId: any) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
     <Header2/>
     <HeroProduct/>
-    <section id='products' className='aboutMe'>
-    {/* <Back name='About Us' title='About Us - Who We Are?' cover={img} /> */}
-   <div className='main'>
+    <section className='products'>
+   {/* <div className='main1'>
    <img className='car-img' src='car.jpg'></img>
     <div className='about-text'>
       <h1>Gépjármű biztosítás</h1>
@@ -31,13 +47,20 @@ const Product = () => {
       <h3>Casco</h3>
       <p>A casco biztosítás saját gépjárművünkben keletkezett töréskárokat, valamint az időjárási viszontagságokból eredő elemi károk téríti meg, továbbá lopás és részlopás esetén nyújt fedezetet.</p>
     </div>
-   </div>
-    </section>
+   </div> */}
+   </section>
+   {/* <Switch>
+    <Route path="/products/house" render={(props) => <House {...props} />} />
+      <Route  path="/products/law" component={Law} />
+      <Route  path="/products/life" component={Life} />
+      <Route  path="/products/travel" component={Travel} />
+    </Switch>  */}
     <BackToTopButton/>
-    <House/>
-     <Law/>
-    <Life/>
-    <Travel/>
+    <Car/>
+    <House scrollToSection={handleScrollToSection}/>
+    <Law scrollToSection={handleScrollToSection} />
+    <Life scrollToSection={handleScrollToSection} />
+    <Travel scrollToSection={handleScrollToSection}/>
     <Footer/>
     </>
   );
