@@ -1,6 +1,5 @@
 
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { featured } from "../Data/Data"
+import {  useLocation, useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { useEffect } from "react";
 
@@ -36,7 +35,7 @@ const FeaturedCard = () => {
     <>
       <div className='content grid5 mtop'>
       <div className="box">
-        <img src="car (2).png" />
+        <img src="car (2).png" alt="" />
         <div id="car-section" className="button-sec"> 
             <button className="feature-button"  onClick={() => handleButtonClick('')}>
               Gépjármű biztosítás
@@ -44,7 +43,7 @@ const FeaturedCard = () => {
           </div>
        </div>
        <div className="box">
-        <img src="health-insurance.png" />
+        <img src="health-insurance.png" alt="" />
         <div id="life" className="button-sec"> 
             <button className="feature-button"  onClick={() => handleButtonClick('life')}>
               Életbiztosítás
@@ -52,7 +51,7 @@ const FeaturedCard = () => {
           </div>
        </div>
        <div className="box">
-        <img src="construction.png" />
+        <img src="construction.png" alt="" />
         <div id="house" className="button-sec"> 
             <button className="feature-button" onClick={() => handleButtonClick('house')}>
               Lakás - és vagyon biztosítás
@@ -60,7 +59,7 @@ const FeaturedCard = () => {
           </div>
        </div>
        <div className="box">
-        <img src="plane.png" />
+        <img src="plane.png" alt="" />
         <div id="travel" className="button-sec"> 
             <button className="feature-button" onClick={() => handleButtonClick('travel')}>
               Utasbiztosítás
@@ -68,7 +67,7 @@ const FeaturedCard = () => {
           </div>
        </div>
        <div className="box">
-        <img src="legal-hammer.png" />
+        <img src="legal-hammer.png" alt="" />
         <div id="law" className="button-sec"> 
             <button className="feature-button" onClick={() => handleButtonClick('law')}>
               Jogvédelem

@@ -1,18 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect} from 'react';
 import './car.css'
 import Footer from '../../Component/Footer/Footer';
 import House from './House';
 import Law from './Law';
 import Life from './Life';
 import Travel from './Travel';
-import Back from '../Common/Back';
-import img from '../Images/about.jpg'
-import Header from '../../Component/Header';
 import HeroProduct from './HeroProduct';
 import Header2 from '../../Component/Header2';
 import BackToTopButton from '../BackToButton';
-import FeaturedCard from '../Featured/FeaturedCard';
-import {  Route } from 'react-router-dom';
 import Car from './Car';
 
 interface ProductProps {

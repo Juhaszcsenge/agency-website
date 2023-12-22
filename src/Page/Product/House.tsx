@@ -1,7 +1,6 @@
 import React from 'react';
 import './house.css'
-import Footer from '../../Component/Footer/Footer';
-import Header from '../../Component/Header';
+
 
 
 interface HouseProps {
@@ -19,7 +18,7 @@ const House: React.FC<HouseProps> = ({ scrollToSection }) => {
       <p>Súlyos anyagi terheket róhat ránk egy betörés vagy lakástűz, de az utóbbi évekre jellemző, szélsőséges időjárás változások is. 
       Egy lakásbiztosítás megkötésével, egy káreseményt követően az eredeti állapot helyreállítása felgyorsítható, biztosítható és további anyagi terhet már nem jelent a család számára.</p>
     </div>
-    <img className='house-img' src='house.jpg'></img>
+    <img className='house-img' src='house.jpg' alt=''></img>
    </div>
    <div  style={{width:"100%"}}>
    <h3 style={{ paddingLeft:"19%"}}>Ingóság</h3>

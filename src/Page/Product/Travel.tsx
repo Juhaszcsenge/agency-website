@@ -1,7 +1,6 @@
 import React from 'react';
 import './travel.css'
-import Footer from '../../Component/Footer/Footer';
-import Header from '../../Component/Header';
+
 
 
 interface TravelProps {
@@ -13,7 +12,7 @@ const Travel: React.FC<TravelProps> = ({ scrollToSection }) => {
     <>
     <section id='travel' className='travel' style={{backgroundImage: "https://szunyikitti.hu/wp-content/uploads/2023/02/Fokep_tiny-468x700.jpg"}}>
    <div className='main2'>
-    <img className='travel-img' src='travel2.jpg'></img>
+    <img className='travel-img' src='travel2.jpg' alt=''></img>
     <div className='about-text'>
       <h1>Utasbiztosítás</h1>
       <h3>Nyaralás</h3>

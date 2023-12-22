@@ -1,7 +1,6 @@
 import React from 'react';
 import './life.css'
-import Footer from '../../Component/Footer/Footer';
-import Header from '../../Component/Header';
+
 
 
 interface LifeProps {
@@ -21,7 +20,7 @@ const Life: React.FC<LifeProps> = ({ scrollToSection }) => {
         lehetőséget adjon az esetleges veszélyhelyzetek következményeinek megoldásához.
          A biztosítási esemény (élethelyzet) általában pénzben nem fejezhető ki, így a biztosító és a vele szerződő fél szabadon határozhatja meg a biztosítási összegét.</p>
     </div>
-    <img className="life-img" src='life2.jpg'></img>
+    <img className="life-img" src='life2.jpg' alt=''></img>
    </div>
    <div className='life-respo'>
    <h3 style={{ paddingLeft:"19%"}}>Befektetés</h3>

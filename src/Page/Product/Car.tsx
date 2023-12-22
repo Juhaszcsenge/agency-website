@@ -6,7 +6,7 @@ const Car = () => {
     <>
     <section  className='car-section'>
    <div className='main1'>
-    <img className='car-img' src='car.jpg'></img>
+    <img className='car-img' src='car.jpg' alt=''></img>
     <div className='about-text'>
       <h1>Gépjármű biztosítás</h1>
       <h2>KGFB</h2>

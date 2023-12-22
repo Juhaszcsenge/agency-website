@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../../Component/Footer/Footer';
 import Hero from '../Hero/Hero';
-import Header from '../../Component/Header';
 import Heading from '../Heading';
 import './complaint.css'
 import Header2 from '../../Component/Header2';

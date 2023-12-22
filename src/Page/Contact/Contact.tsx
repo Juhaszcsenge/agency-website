@@ -1,14 +1,13 @@
-import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import './contact.css'
 import Heading from "../Heading";
 
 
   const Contact = () => {
-    const mapStyles = {
-        width: '100%',
-        height: '100%',
-      };
+    // const mapStyles = {
+    //     width: '100%',
+    //     height: '100%',
+    //   };
     
   
    
@@ -20,7 +19,7 @@ import Heading from "../Heading";
                 </div>
             <Row>
                 <Col lg='6' md='6'>
-                    <div className="row-map"> {/*Google map-et megjelenítek, hogy hol található az étterem. Mellette egy contact formmal,hogy küldjenek üzenetet nekünk*/}
+                    <div className="row-map"> 
                     <iframe 
                     title="Google Térkép"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.7719042251574!2d18.290967076295455!3d45.855864171083056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475d364f21912eeb%3A0x6b3cdf7b104698ac!2zU2lrbMOzcywgU3plbnQgSXN0dsOhbiB0w6lyIDgsIDc4MDA!5e0!3m2!1shu!2shu!4v1698959763933!5m2!1shu!2shu" 
@@ -33,7 +32,7 @@ import Heading from "../Heading";
                 </Col>
 
                 <Col lg='6' md='6'>
-                    <div className="row"> {/*Ez a contact form*/}
+                    <div className="row">
                        <form >
                         <div className="input-box">
                           <p>E-mail:</p>

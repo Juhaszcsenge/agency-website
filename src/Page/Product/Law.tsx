@@ -12,7 +12,7 @@ const Law: React.FC<LawProps> = ({ scrollToSection }) => {
     <>
     <section id='law' className='law' >
    <div className='main'>
-    <img className='law-img' src='law.jpg'></img>
+    <img className='law-img' src='law.jpg' alt=''></img>
     <div className='about-text'>
       <h1>Jogvédelem</h1>
       <p>A jogvédelmi biztosítás a magánéletben előforduló peres eljárások, jogi problémák esetén nyújt segítséget. 

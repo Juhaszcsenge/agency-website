@@ -1,6 +1,6 @@
 import React from "react";
 import "./heroProduct.css"
-import { Link } from "react-scroll";
+
 
 
 const Hero = () => {
