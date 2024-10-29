@@ -2,13 +2,6 @@
     width: 100%;
 }
 
-/* .house-img{
-height: auto;
-width: 500px;
-padding-left: 10%;
-border-radius: 0 7rem 0 7rem; 
-box-shadow: -20px 20px 0 0 #967375;
-} */
 
 .house-img {
   height: auto;
@@ -21,6 +14,11 @@ box-shadow: -20px 20px 0 0 #967375;
 
 .about-text{
     width: 400px;
+}
+
+.about-text1{
+  width: 80%;
+  margin-right: 40px;
 }
 
 .main4{
@@ -84,16 +82,20 @@ box-shadow: -20px 20px 0 0 #967375;
     }
   
     .house img {
-      width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
+      width: 80%;
       max-width: 300px;
       border-radius: 0 7rem 0 7rem;
       box-shadow: 20px 20px 0 0 #967375;
       margin-bottom: 20px;
+      margin-left: 0px;
+      justify-content: center;
+      align-items: center;
     }
   
     .about-text {
       width: 100%;
       text-align: center;
+      margin-top: 20px;
     }
   
     .about-text h1 {
@@ -110,6 +112,7 @@ box-shadow: -20px 20px 0 0 #967375;
       font-size: 14px;
       margin-bottom: 30px;
     }
+
   
     button {
       font-size: 14px;
@@ -121,9 +124,7 @@ box-shadow: -20px 20px 0 0 #967375;
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .house {
-        padding: 60px 0;
-    }
+
 
     .main4 {
         flex-direction: column;
@@ -135,12 +136,23 @@ box-shadow: -20px 20px 0 0 #967375;
         max-width: 300px;
         border-radius: 0 7rem 0 7rem;
         box-shadow: 20px 20px 0 0 #967375;
+        margin-left: 0px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
     }
 
     .about-text {
         width: 80%;
         text-align: center;
     }
+
+    .about-text1{
+      width: 80%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
 
     .about-text h1 {
         font-size: 28px;
@@ -156,6 +168,71 @@ box-shadow: -20px 20px 0 0 #967375;
         font-size: 16px;
         margin-bottom: 40px;
     }
+
+    .about-p2{
+      font-size: 16px;
+      margin-bottom: 40px;
+      color: black;
+      letter-spacing: 1px;
+      line-height: 28px;
+      height: 40%;
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+
+  .main4 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .house img {
+      width: 80%;
+      max-width: 300px;
+      border-radius: 0 7rem 0 7rem;
+      box-shadow: 20px 20px 0 0 #967375;
+      margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text {
+      width: 80%;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .about-text1{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-text h1 {
+      font-size: 24px;
+      margin-bottom: 25px;
+  }
+
+  .about-text h5 {
+      font-size: 20px;
+      margin-bottom: 25px;
+  }
+
+  .about-text p {
+      font-size: 12px;
+      margin-bottom: 40px;
+  }
+
+  .about-p2{
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    height: 40%;
+    text-align: center;
+  }
 }
 
 @media screen and (width: 1224px) {
