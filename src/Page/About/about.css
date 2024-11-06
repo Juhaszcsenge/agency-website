@@ -65,3 +65,26 @@
 
   }
 }
+
+@media screen and (min-width: 298px) and (max-width: 450px) {
+  .about-img{
+   
+    height: auto;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 0 5rem 0 5rem;
+    box-shadow: 20px 20px 0 0 #967375;
+
+}
+
+.about p {
+  font-size: 12px;
+  text-align: center;
+}
+.about h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+}

@@ -3,3 +3,56 @@
     -webkit-animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
     animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
 }
+
+.top{
+    position: fixed;
+    bottom: 70px;
+    right: 10px; 
+    height: 40px; 
+    width: 40px; 
+    margin-left: 10px;
+    font-size: 35px;
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0);
+    background-color:rgb(10, 143, 154);;
+    color: #292929;
+    opacity: 24px; 
+    padding-top: -15px;
+    /* // zIndex: 2,  */
+    z-Index: 99999;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    .top {
+        font-size: 35px;
+        margin-top: 20px;
+        order: 2;
+        margin-bottom: 20px;
+        border-color: rgba(0,0,0,0);
+        background-color: rgb(10, 143, 154);;
+        color: #1f1f1f;
+        height: 40px; 
+        width: 40px; 
+        right: 20px; 
+      
+
+    }
+}
+
+@media screen and (min-width: 298px) and (max-width: 450px) {
+    .top {
+        font-size: 23px;
+        margin-top: 20px;
+        order: 2;
+        margin-bottom: 20px;
+        border-color: rgba(0,0,0,0);
+        background-color: #846756;
+        color: #ffffff;
+        height: 30px; 
+        width: 30px; 
+        /* right: 20px;  */
+        padding: 0;
+}
+}

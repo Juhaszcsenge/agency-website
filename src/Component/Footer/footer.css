@@ -56,3 +56,17 @@ footer ul li {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+@media screen and (min-width: 298px) and (max-width: 450px) {
+  li{
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+
+  span{
+    font-size: 14px;
+  }
+}

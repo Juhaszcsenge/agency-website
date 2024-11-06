@@ -26,26 +26,7 @@ const BackToTopButton = () => {
   return (
     <div className='backToButton'>
         {backToTopButton && (
-            <button 
-            style={{
-                position: "fixed", 
-                bottom: "70px", 
-                right:"10px", 
-                height:"50px", 
-                width:"50px", 
-                marginLeft: "10px",
-                fontSize:"35px",
-                borderRadius:"5px",
-                borderColor: "rgba(0,0,0,0)",
-                backgroundColor: "#967375",
-                color:"white",
-                opacity: "24px", 
-                paddingTop: "-15px",
-                // zIndex: 2, 
-                zIndex: 99999,
-                textAlign: "center"
-            }}
-            onClick={scrollUp}
+            <button className="top" onClick={scrollUp}
                 >^
             </button>
            

@@ -76,11 +76,12 @@
     }
   
     .travel img {
-      width: 80%; /* A kép legyen teljes szélességű a mobil eszközökön */
+      width: 80%;
       max-width: 300px;
-      border-radius: 0 7rem 0 7rem;
+      border-radius: 0 5rem 0 5rem;
       box-shadow: 20px 20px 0 0 #967375;
-      margin-bottom: 20px;
+      margin-right: 0px;
+      justify-content: center;
     }
   
     .about-text {
@@ -150,3 +151,43 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (min-width: 298px) and (max-width: 450px) {
+  .travel {
+    padding: 60px 0;
+}
+
+.main2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel img {
+    width: 90%;
+    max-width: 250px;
+    margin-right: 25px;
+    border-radius: 0 5rem 0 5rem;
+    box-shadow: 20px 20px 0 0 #967375;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    width: 80%;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+
+.about-text h5 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    font-size: 12px;
+    /* margin-bottom: 40px; */
+}}

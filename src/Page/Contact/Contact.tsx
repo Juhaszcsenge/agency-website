@@ -15,7 +15,7 @@ import Heading from "../Heading";
         <Container className="map">
             <section id="menux">
                 <div className="title">
-                    <Heading title='Vedd fel velünk a kapcsolatot' subtitle="" />
+                    <h1 className="l-h1">Vedd fel velünk a kapcsolatot!</h1>
                 </div>
             <Row>
                 <Col lg='6' md='6'>

@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
               </center>
       <div className='legal'>
-        <span>© 2023 By Juhász Csenge.</span>
+        <span>© 2023 Just Ready Solutions</span>
       </div>
     </footer>
   );

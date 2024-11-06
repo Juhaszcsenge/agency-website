@@ -31,3 +31,14 @@
 .container{
   padding-bottom: 30px;
 }
+
+@media screen and (min-width: 298px) and (max-width: 450px) {
+  .input-box p{
+    font-size: 18px;
+  }
+
+  .heading{
+    font-size: 20px;
+    padding: 0;
+  }
+}
